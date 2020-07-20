@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       if !name_hash[key]
         return key_to_report
       else  
-        name_hash[key] < value_comparison 
+        if name_hash[key] < value_comparison 
         value_comparison = name_hash[key]
         key_to_report = key 
       end  
